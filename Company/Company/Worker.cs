@@ -6,17 +6,26 @@ using System.Threading.Tasks;
 
 namespace Company
 {
-    public class Workers
+    /// <summary>
+    /// Этот класс хранит информацию о сотруднике
+    /// </summary>
+    public class Worker
     {
+        public Worker (FIO fio1,Role.ERole role1)
+        {
+            this.fio = fio1;
+            this.role = role1;
+        }
         public FIO fio { get; set; }
         Role.ERole role;
         public Contacts contacts { get; set; }
         Departament departament;
 
-        public void Translate (Departament new_departament)
+        public void Translate (Departament new_departament, Role.ERole new_role)
         {
             this.departament.Remove(this);
             this.departament = new_departament;
+            this.role = new_role;
             this.departament.Add(this);
         }
 

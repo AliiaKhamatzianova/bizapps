@@ -3,3 +3,8 @@ D:\GIT\Bizapps\Company\Company\bin\Debug\Company.dll
 D:\GIT\Bizapps\Company\Company\bin\Debug\Company.pdb
 D:\GIT\Bizapps\Company\Company\obj\Debug\Company.dll
 D:\GIT\Bizapps\Company\Company\obj\Debug\Company.pdb
+D:\GIT\Bizapps\bizapps\Company\Company\obj\Debug\Company.csprojResolveAssemblyReference.cache
+D:\GIT\Bizapps\bizapps\Company\Company\obj\Debug\Company.dll
+D:\GIT\Bizapps\bizapps\Company\Company\obj\Debug\Company.pdb
+D:\GIT\Bizapps\bizapps\Company\Company\bin\Debug\Company.dll
+D:\GIT\Bizapps\bizapps\Company\Company\bin\Debug\Company.pdb

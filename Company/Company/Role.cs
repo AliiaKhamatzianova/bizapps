@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Company
 {
+    /// <summary>
+    /// Этот класс предназначен для выбора должности
+    /// </summary>
     public class Role
     {
         public enum ERole

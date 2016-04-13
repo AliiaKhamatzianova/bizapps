@@ -1,0 +1,8 @@
+D:\GIT\Bizapps\bizapps\Company\Project_Company\bin\Debug\Project_Company.exe.config
+D:\GIT\Bizapps\bizapps\Company\Project_Company\obj\Debug\Project_Company.csprojResolveAssemblyReference.cache
+D:\GIT\Bizapps\bizapps\Company\Project_Company\bin\Debug\Project_Company.exe
+D:\GIT\Bizapps\bizapps\Company\Project_Company\bin\Debug\Project_Company.pdb
+D:\GIT\Bizapps\bizapps\Company\Project_Company\bin\Debug\Company.dll
+D:\GIT\Bizapps\bizapps\Company\Project_Company\bin\Debug\Company.pdb
+D:\GIT\Bizapps\bizapps\Company\Project_Company\obj\Debug\Project_Company.exe
+D:\GIT\Bizapps\bizapps\Company\Project_Company\obj\Debug\Project_Company.pdb

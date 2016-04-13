@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace Company
 {
+    /// <summary>
+    /// Этот класс хранит информацию об отделах и их работниках
+    /// </summary>
     public class Hierarchy
     {
         public Hierarchy(Departament departament)
         {
             this.departament_name = departament.departament_name;
-            this.fio_boss = departament.boss.boss_fio;
-            foreach (Workers worker in departament.Get_workers())
+            this.fio_boss = departament.boss.fio;
+            foreach (Worker worker in departament.Get_workers())
             {
                 this.workers_fio.Add (worker.fio);
             }  

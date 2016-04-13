@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Company
 {
+    /// <summary>
+    /// Этот класс позволяет посмотреть иерархию отделов компании
+    /// </summary>
     public class Company
     {
         List<Departament> departaments; 

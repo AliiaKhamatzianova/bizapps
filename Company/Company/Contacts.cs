@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Company
 {
+    /// <summary>
+    /// Этот класс для хранения контактных данных
+    /// </summary>
     public class Contacts
     {
         string phone_number;
