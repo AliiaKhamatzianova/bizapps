@@ -66,6 +66,12 @@ namespace Project_Company
                 translate_worker.Translate(departaments[0],Role.ERole.QA);
             }
 
+            string file_name = "departaments.txt";
+            WorkWithFile work_with_file = new WorkWithFile(file_name);
+            work_with_file.Write_to_file(departaments);
+
+            List <Departament> departaments_from_file = work_with_file.Read_from_file();
+
         }
     }
 }
