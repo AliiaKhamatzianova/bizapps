@@ -9,6 +9,7 @@ namespace Company
     /// <summary>
     /// Этот класс хранит информацию о руководителе отдела
     /// </summary>
+    [Serializable]
     public class Boss:Worker
     {
         public Boss (FIO fio1, Role.ERole role1):base(fio1,role1)

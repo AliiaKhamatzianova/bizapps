@@ -9,6 +9,7 @@ namespace Company
     /// <summary>
     /// Этот класс предназначен для выбора должности
     /// </summary>
+    [Serializable]
     public class Role
     {
         public enum ERole

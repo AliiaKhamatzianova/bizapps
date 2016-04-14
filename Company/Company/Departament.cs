@@ -9,6 +9,7 @@ namespace Company
     /// <summary>
     /// Этот класс хранит информацию об отделе
     /// </summary>
+    [Serializable]
     public class Departament
     {
         public Departament (string name)
@@ -18,7 +19,7 @@ namespace Company
 
         public Boss boss { get; set; }
         public string departament_name { get; set; }
-        List<Worker> workers;
+        List<Worker> workers=new List<Worker>();
 
         public Worker Get_worker_by_name (FIO fio)
         {

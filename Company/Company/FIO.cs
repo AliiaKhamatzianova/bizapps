@@ -9,6 +9,7 @@ namespace Company
     /// <summary>
     /// Этот класс для хранения ФИО сотрудника
     /// </summary>
+    [Serializable]
     public class FIO
     {
         public FIO (string last, string first, string given)

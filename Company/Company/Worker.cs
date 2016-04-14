@@ -9,6 +9,7 @@ namespace Company
     /// <summary>
     /// Этот класс хранит информацию о сотруднике
     /// </summary>
+    [Serializable]
     public class Worker
     {
         public Worker (FIO fio1,Role.ERole role1)
@@ -23,7 +24,9 @@ namespace Company
 
         public void Translate (Departament new_departament, Role.ERole new_role)
         {
-            this.departament.Remove(this);
+            if (this.departament!=null)
+                this.departament.Remove(this);
+
             this.departament = new_departament;
             this.role = new_role;
             this.departament.Add(this);

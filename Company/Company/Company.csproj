@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Boss.cs" />
+    <Compile Include="ListOfDepartaments.cs" />
     <Compile Include="Worker.cs" />
     <Compile Include="Company.cs" />
     <Compile Include="Contacts.cs" />

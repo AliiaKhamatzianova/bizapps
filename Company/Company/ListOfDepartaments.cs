@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 namespace Company
 {
     /// <summary>
-    /// Этот класс для хранения контактных данных
+    /// Это класс для хранения списка класса Departament
     /// </summary>
     [Serializable]
-    public class Contacts
+    public class ListOfDepartaments
     {
-        string phone_number;
-        string e_mail;
+        public List<Departament> list_of_departaments;
+
+       
+
     }
 }
